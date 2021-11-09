@@ -2,8 +2,6 @@
 
 * {
   margin: 0 auto;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -34,14 +32,9 @@ section {
   height: 50%;
 }
 
-section h1,
 section p.meta {
   color: #ffffff;
   margin-bottom: 15px;
-}
-
-section hgroup {
-  margin-top: -360px;
 }
 
 section p.numbers {
@@ -81,6 +74,7 @@ p.strings {
   padding: 30px 0;
   background: grey;
   color: #ffffff;
+  border-radius: 25px;
 }
 
 div.field {
@@ -90,7 +84,6 @@ div.field {
   float: left;
   padding: 25px 0 0 0;
   margin: 30px 15px 0 0;
-  -webkit-box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
-  -moz-box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
   box-shadow: 5px 6px 9px 1px rgba(53, 53, 53, 0.5);
+  border-radius: 25px;
 }
