@@ -14,7 +14,12 @@ class CountdownTimer {
     setInterval(() => {
       const currentTime = Date.now();
       const time = this.targetDate - currentTime;
-      this.changeTimer(this.getTimeComponents(time));
+
+      if (this.targetDate > currentTime) {
+        this.changeTimer(this.getTimeComponents(time));
+      } else {
+        this.changeTimer(this.getTimeComponents(0));
+      }
     }, 1000);
   }
 
